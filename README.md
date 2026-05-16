@@ -1,19 +1,13 @@
-# Quiz APP
+# Quiz App
 
-A new Flutter project created with FlutLab - https://flutlab.io
+A simple multiple-choice quiz application built using Flutter. 
 
-## Getting Started
+## How to Play
+* Answer the questions by clicking on the options.
+* See your final score at the end of the quiz.
+* Press the restart button to try again.
 
-A few resources to get you started if this is your first Flutter project:
-
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
-
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Getting Started: FlutLab - Flutter Online IDE
-
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+## How to Run
+```bash
+flutter pub get
+flutter run
