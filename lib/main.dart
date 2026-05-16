@@ -70,8 +70,12 @@ class _MyAppState extends State<MyApp> {
     ];
     return MaterialApp(
       title: "Quiz-App",
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text("Qiuz App ")),
+        appBar: AppBar(
+            centerTitle: true,
+            backgroundColor: Colors.blue,
+            title: Text("Qiuz App ")),
         body: questionIndex < questions.length
             ? Quiz(
                 questions: questions,
